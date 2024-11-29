@@ -1,0 +1,24 @@
+{
+  "name": "qlife-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yousef Hassan",
+  "engines": {
+    "node": "20.18.0"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "gitignore": "^0.7.0",
+    "mongoose": "^8.8.3"
+  }
+}
