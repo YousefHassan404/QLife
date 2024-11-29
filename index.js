@@ -38,6 +38,10 @@ mongoose
   });
 
 
+
+  app.get("/", (req, res) => {
+    res.send("Hello, Vercel!");
+  });
   
 // Routes
 app.use("/api/users", userRoutes);
