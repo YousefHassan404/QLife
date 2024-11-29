@@ -6,9 +6,9 @@ import userRoutes from "./Routers/userRoutes.js";
 
 const app = express();
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT||8080;
 const CLIENT_URL = process.env.CLIENT_URL;
-const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI="mongodb+srv://aaa01095836766:1k8J8ZDcorJCGCOY@cluster0.qcr9l.mongodb.net/QLife?retryWrites=true&w=majority&appName=Cluster0"||process.env.MONGODB_URI
 
 
 // Uncomment if CORS is needed
@@ -38,5 +38,6 @@ mongoose
   });
 
 
+  
 // Routes
 app.use("/api/users", userRoutes);
